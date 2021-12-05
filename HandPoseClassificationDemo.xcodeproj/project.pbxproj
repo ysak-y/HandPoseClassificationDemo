@@ -11,6 +11,8 @@
 		48EB1319274CBB33003215D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB1318274CBB33003215D2 /* ContentView.swift */; };
 		48EB131B274CBB34003215D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EB131A274CBB34003215D2 /* Assets.xcassets */; };
 		48EB131E274CBB34003215D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EB131D274CBB34003215D2 /* Preview Assets.xcassets */; };
+		48EB1325274CC52C003215D2 /* MyHandPoseClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 48EB1324274CC52B003215D2 /* MyHandPoseClassifier.mlmodel */; };
+		48EB1327274CC548003215D2 /* HandPoseClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB1326274CC548003215D2 /* HandPoseClassifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		48EB1318274CBB33003215D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		48EB131A274CBB34003215D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48EB131D274CBB34003215D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48EB1324274CC52B003215D2 /* MyHandPoseClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyHandPoseClassifier.mlmodel; sourceTree = "<group>"; };
+		48EB1326274CC548003215D2 /* HandPoseClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandPoseClassifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 				48EB1316274CBB33003215D2 /* HandPoseClassificationDemoApp.swift */,
 				48EB1318274CBB33003215D2 /* ContentView.swift */,
 				48EB131A274CBB34003215D2 /* Assets.xcassets */,
+				48EB1324274CC52B003215D2 /* MyHandPoseClassifier.mlmodel */,
 				48EB131C274CBB34003215D2 /* Preview Content */,
+				48EB1326274CC548003215D2 /* HandPoseClassifier.swift */,
 			);
 			path = HandPoseClassificationDemo;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				48EB1319274CBB33003215D2 /* ContentView.swift in Sources */,
 				48EB1317274CBB33003215D2 /* HandPoseClassificationDemoApp.swift in Sources */,
+				48EB1327274CC548003215D2 /* HandPoseClassifier.swift in Sources */,
+				48EB1325274CC52C003215D2 /* MyHandPoseClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

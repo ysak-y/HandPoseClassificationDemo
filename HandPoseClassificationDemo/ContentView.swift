@@ -1,21 +1,15 @@
-//
-//  ContentView.swift
-//  HandPoseClassificationDemo
-//
-//  Created by Yoshiaki Yamada on 2021/11/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var handPoseClassifier = HandPoseClassifier()
+    
     var body: some View {
-        Text("Hello, world!")
+        Text(handPoseClassifier.predictionResult ?? "Unknown")
             .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        
+        if let errorMessage = handPoseClassifier.errorMessage {
+            Text(errorMessage)
+                .padding()
+        }
     }
 }
